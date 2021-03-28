@@ -3,27 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C09EC22244C5D32000A2D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C09EC20244C5D32000A2D67 /* InfoPlist.strings */; };
+		6C09EC25244C6C5A000A2D67 /* NotificationOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C09EC24244C6C5A000A2D67 /* NotificationOffViewController.swift */; };
 		6C2AAF0B23A562BB0001BFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AAF0A23A562BB0001BFD0 /* AppDelegate.swift */; };
-		6C2AAF0D23A562BB0001BFD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AAF0C23A562BB0001BFD0 /* SceneDelegate.swift */; };
 		6C2AAF0F23A562BB0001BFD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AAF0E23A562BB0001BFD0 /* ViewController.swift */; };
-		6C2AAF1223A562BB0001BFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2AAF1023A562BB0001BFD0 /* Main.storyboard */; };
 		6C2AAF1423A562BD0001BFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2AAF1323A562BD0001BFD0 /* Assets.xcassets */; };
-		6C2AAF1723A562BD0001BFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2AAF1523A562BD0001BFD0 /* LaunchScreen.storyboard */; };
+		6C2AAF1F23A5668B0001BFD0 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AAF1E23A5668B0001BFD0 /* Notification.swift */; };
+		6C3232ED241E705A002F2F4A /* Звонок.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232EC241E705A002F2F4A /* Звонок.mp3 */; };
+		6C3232EF241E70F6002F2F4A /* Птицы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232EE241E70F6002F2F4A /* Птицы.mp3 */; };
+		6C3232F1241E7317002F2F4A /* Будильник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232F0241E7316002F2F4A /* Будильник.mp3 */; };
+		6C3232F3241E74F7002F2F4A /* Тревога.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232F2241E74F7002F2F4A /* Тревога.mp3 */; };
+		6C3232F8241FF99D002F2F4A /* Дрель.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232F7241FF99C002F2F4A /* Дрель.mp3 */; };
+		6C3232FA241FFADD002F2F4A /* Барабан.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232F9241FFADD002F2F4A /* Барабан.mp3 */; };
+		6C3232FC24200245002F2F4A /* Сверчок.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232FB24200245002F2F4A /* Сверчок.mp3 */; };
+		6C3232FE242002CA002F2F4A /* Мотоцикл.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C3232FD242002CA002F2F4A /* Мотоцикл.mp3 */; };
+		6C67184823E1F7A600605D5A /* AlarmTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67184723E1F7A600605D5A /* AlarmTableViewCellDelegate.swift */; };
+		6C67184A2403C40E00605D5A /* ArKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6718492403C40E00605D5A /* ArKitViewController.swift */; };
+		6C7A89B7243C9599001EF86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A89B5243C9599001EF86E /* LaunchScreen.storyboard */; };
+		6C7A89C8243CB617001EF86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A89BF243CAD37001EF86E /* Main.storyboard */; };
+		6C870EA523BB75A000778966 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C870EA423BB75A000778966 /* AlarmTableViewCell.swift */; };
+		6CD7C389244D85E900C3DB73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7C387244D85E900C3DB73 /* Localizable.strings */; };
+		6CE5B77923B7760C00EA4986 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5B77823B7760C00EA4986 /* Alarm.swift */; };
+		6CECA71523A7FA6600972A8F /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECA71423A7FA6600972A8F /* AlarmTableViewController.swift */; };
+		6CECA71C23AA881700972A8F /* ViewControllerOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECA71B23AA881700972A8F /* ViewControllerOutputProtocol.swift */; };
+		86CCE424EAE82673DE3690E1 /* Pods_AlarmProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4E14FEFF038C6CC2428F5 /* Pods_AlarmProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C2AAF0723A562BB0001BFD0 /* AlarmProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C4E14FEFF038C6CC2428F5 /* Pods_AlarmProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlarmProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C09EC21244C5D32000A2D67 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C09EC24244C6C5A000A2D67 /* NotificationOffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOffViewController.swift; sourceTree = "<group>"; };
+		6C2AAF0723A562BB0001BFD0 /* Alarm - Wake up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm - Wake up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2AAF0A23A562BB0001BFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C2AAF0C23A562BB0001BFD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6C2AAF0E23A562BB0001BFD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C2AAF1123A562BB0001BFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C2AAF1323A562BD0001BFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C2AAF1623A562BD0001BFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2AAF1823A562BD0001BFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C2AAF1E23A5668B0001BFD0 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		6C3232EC241E705A002F2F4A /* Звонок.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Звонок.mp3"; path = "../../../../../../Downloads/Звонок.mp3"; sourceTree = "<group>"; };
+		6C3232EE241E70F6002F2F4A /* Птицы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Птицы.mp3"; path = "../../../../../../Downloads/Птицы.mp3"; sourceTree = "<group>"; };
+		6C3232F0241E7316002F2F4A /* Будильник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Будильник.mp3"; path = "../../../../../../Downloads/Будильник.mp3"; sourceTree = "<group>"; };
+		6C3232F2241E74F7002F2F4A /* Тревога.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Тревога.mp3"; path = "../../../../../../Downloads/Тревога.mp3"; sourceTree = "<group>"; };
+		6C3232F7241FF99C002F2F4A /* Дрель.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Дрель.mp3"; path = "../../../../../../Downloads/Дрель.mp3"; sourceTree = "<group>"; };
+		6C3232F9241FFADD002F2F4A /* Барабан.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Барабан.mp3"; path = "../../../../../../Downloads/Барабан.mp3"; sourceTree = "<group>"; };
+		6C3232FB24200245002F2F4A /* Сверчок.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Сверчок.mp3"; path = "../../../../../../Downloads/Сверчок.mp3"; sourceTree = "<group>"; };
+		6C3232FD242002CA002F2F4A /* Мотоцикл.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Мотоцикл.mp3"; path = "../../../../../../Downloads/Мотоцикл.mp3"; sourceTree = "<group>"; };
+		6C67184723E1F7A600605D5A /* AlarmTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		6C6718492403C40E00605D5A /* ArKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArKitViewController.swift; sourceTree = "<group>"; };
+		6C7A89CE243CB918001EF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../AlarmProject 2/AlarmProject/Storyboards/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		6C7A89CF243CB919001EF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../AlarmProject 2/AlarmProject/Storyboards/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		6C7A89D2243CB994001EF86E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../AlarmProject 2/AlarmProject/Storyboards/en.lproj/Main.strings"; sourceTree = "<group>"; };
+		6C870EA423BB75A000778966 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		6CD7C388244D85E900C3DB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CD7C38A244D864E00C3DB73 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CE5B77823B7760C00EA4986 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		6CE7D86D243DD73B0057476B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "../../../AlarmProject 2/AlarmProject/Storyboards/ru.lproj/Main.strings"; sourceTree = "<group>"; };
+		6CECA71423A7FA6600972A8F /* AlarmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
+		6CECA71B23AA881700972A8F /* ViewControllerOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOutputProtocol.swift; sourceTree = "<group>"; };
+		D279FACB0C1DCFB890663004 /* Pods-AlarmProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmProject.debug.xcconfig"; path = "Target Support Files/Pods-AlarmProject/Pods-AlarmProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F2BABEE25568C03F074CFC18 /* Pods-AlarmProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmProject.release.xcconfig"; path = "Target Support Files/Pods-AlarmProject/Pods-AlarmProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CCE424EAE82673DE3690E1 /* Pods_AlarmProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +84,15 @@
 			children = (
 				6C2AAF0923A562BB0001BFD0 /* AlarmProject */,
 				6C2AAF0823A562BB0001BFD0 /* Products */,
+				7E14C8614D39F2DC90808407 /* Pods */,
+				CC9BAE1B73265A0EEAA4CD73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6C2AAF0823A562BB0001BFD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C2AAF0723A562BB0001BFD0 /* AlarmProject.app */,
+				6C2AAF0723A562BB0001BFD0 /* Alarm - Wake up.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +100,105 @@
 		6C2AAF0923A562BB0001BFD0 /* AlarmProject */ = {
 			isa = PBXGroup;
 			children = (
-				6C2AAF0A23A562BB0001BFD0 /* AppDelegate.swift */,
-				6C2AAF0C23A562BB0001BFD0 /* SceneDelegate.swift */,
-				6C2AAF0E23A562BB0001BFD0 /* ViewController.swift */,
-				6C2AAF1023A562BB0001BFD0 /* Main.storyboard */,
-				6C2AAF1323A562BD0001BFD0 /* Assets.xcassets */,
-				6C2AAF1523A562BD0001BFD0 /* LaunchScreen.storyboard */,
-				6C2AAF1823A562BD0001BFD0 /* Info.plist */,
+				6CE5B77623B775D300EA4986 /* Model */,
+				6CECA71A23AA87D200972A8F /* Protocols */,
+				6C2AAF2C23A654AF0001BFD0 /* App */,
+				6C2AAF2B23A654A10001BFD0 /* Manager */,
+				6C2AAF2423A653E60001BFD0 /* Resources */,
+				6C2AAF2523A653FE0001BFD0 /* Controllers */,
+				6C2AAF2723A654300001BFD0 /* Storyboards */,
 			);
 			path = AlarmProject;
+			sourceTree = "<group>";
+		};
+		6C2AAF2423A653E60001BFD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3232F9241FFADD002F2F4A /* Барабан.mp3 */,
+				6C3232F0241E7316002F2F4A /* Будильник.mp3 */,
+				6C3232F7241FF99C002F2F4A /* Дрель.mp3 */,
+				6C3232EC241E705A002F2F4A /* Звонок.mp3 */,
+				6C3232FD242002CA002F2F4A /* Мотоцикл.mp3 */,
+				6C3232FB24200245002F2F4A /* Сверчок.mp3 */,
+				6C3232EE241E70F6002F2F4A /* Птицы.mp3 */,
+				6C3232F2241E74F7002F2F4A /* Тревога.mp3 */,
+				6C2AAF1323A562BD0001BFD0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C2AAF2523A653FE0001BFD0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C2AAF0E23A562BB0001BFD0 /* ViewController.swift */,
+				6CECA71423A7FA6600972A8F /* AlarmTableViewController.swift */,
+				6C870EA423BB75A000778966 /* AlarmTableViewCell.swift */,
+				6C6718492403C40E00605D5A /* ArKitViewController.swift */,
+				6C09EC24244C6C5A000A2D67 /* NotificationOffViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6C2AAF2723A654300001BFD0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A89BF243CAD37001EF86E /* Main.storyboard */,
+				6C7A89B5243C9599001EF86E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6C2AAF2B23A654A10001BFD0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6C2AAF1E23A5668B0001BFD0 /* Notification.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6C2AAF2C23A654AF0001BFD0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C2AAF0A23A562BB0001BFD0 /* AppDelegate.swift */,
+				6C2AAF1823A562BD0001BFD0 /* Info.plist */,
+				6CD7C387244D85E900C3DB73 /* Localizable.strings */,
+				6C09EC20244C5D32000A2D67 /* InfoPlist.strings */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CE5B77623B775D300EA4986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5B77823B7760C00EA4986 /* Alarm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CECA71A23AA87D200972A8F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6CECA71B23AA881700972A8F /* ViewControllerOutputProtocol.swift */,
+				6C67184723E1F7A600605D5A /* AlarmTableViewCellDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7E14C8614D39F2DC90808407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D279FACB0C1DCFB890663004 /* Pods-AlarmProject.debug.xcconfig */,
+				F2BABEE25568C03F074CFC18 /* Pods-AlarmProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC9BAE1B73265A0EEAA4CD73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C4E14FEFF038C6CC2428F5 /* Pods_AlarmProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C2AAF1B23A562BD0001BFD0 /* Build configuration list for PBXNativeTarget "AlarmProject" */;
 			buildPhases = (
+				780EAF1DCEE60DC6B9B4BABA /* [CP] Check Pods Manifest.lock */,
 				6C2AAF0323A562BB0001BFD0 /* Sources */,
 				6C2AAF0423A562BB0001BFD0 /* Frameworks */,
 				6C2AAF0523A562BB0001BFD0 /* Resources */,
+				827F19FD7E614B4B0A689C9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +220,7 @@
 			);
 			name = AlarmProject;
 			productName = AlarmProject;
-			productReference = 6C2AAF0723A562BB0001BFD0 /* AlarmProject.app */;
+			productReference = 6C2AAF0723A562BB0001BFD0 /* Alarm - Wake up.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +230,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Магомед Абдуразаков";
 				TargetAttributes = {
 					6C2AAF0623A562BB0001BFD0 = {
@@ -109,6 +245,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6C2AAEFE23A562BB0001BFD0;
 			productRefGroup = 6C2AAF0823A562BB0001BFD0 /* Products */;
@@ -125,42 +262,120 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2AAF1723A562BD0001BFD0 /* LaunchScreen.storyboard in Resources */,
+				6C3232EF241E70F6002F2F4A /* Птицы.mp3 in Resources */,
 				6C2AAF1423A562BD0001BFD0 /* Assets.xcassets in Resources */,
-				6C2AAF1223A562BB0001BFD0 /* Main.storyboard in Resources */,
+				6C09EC22244C5D32000A2D67 /* InfoPlist.strings in Resources */,
+				6C3232F3241E74F7002F2F4A /* Тревога.mp3 in Resources */,
+				6C3232FA241FFADD002F2F4A /* Барабан.mp3 in Resources */,
+				6C3232ED241E705A002F2F4A /* Звонок.mp3 in Resources */,
+				6C7A89C8243CB617001EF86E /* Main.storyboard in Resources */,
+				6C3232F1241E7317002F2F4A /* Будильник.mp3 in Resources */,
+				6C3232FC24200245002F2F4A /* Сверчок.mp3 in Resources */,
+				6CD7C389244D85E900C3DB73 /* Localizable.strings in Resources */,
+				6C3232FE242002CA002F2F4A /* Мотоцикл.mp3 in Resources */,
+				6C7A89B7243C9599001EF86E /* LaunchScreen.storyboard in Resources */,
+				6C3232F8241FF99D002F2F4A /* Дрель.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		780EAF1DCEE60DC6B9B4BABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlarmProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827F19FD7E614B4B0A689C9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlarmProject/Pods-AlarmProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlarmProject/Pods-AlarmProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlarmProject/Pods-AlarmProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C2AAF0323A562BB0001BFD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C67184A2403C40E00605D5A /* ArKitViewController.swift in Sources */,
+				6C2AAF1F23A5668B0001BFD0 /* Notification.swift in Sources */,
+				6CECA71523A7FA6600972A8F /* AlarmTableViewController.swift in Sources */,
+				6CE5B77923B7760C00EA4986 /* Alarm.swift in Sources */,
+				6C67184823E1F7A600605D5A /* AlarmTableViewCellDelegate.swift in Sources */,
+				6C09EC25244C6C5A000A2D67 /* NotificationOffViewController.swift in Sources */,
 				6C2AAF0F23A562BB0001BFD0 /* ViewController.swift in Sources */,
+				6CECA71C23AA881700972A8F /* ViewControllerOutputProtocol.swift in Sources */,
 				6C2AAF0B23A562BB0001BFD0 /* AppDelegate.swift in Sources */,
-				6C2AAF0D23A562BB0001BFD0 /* SceneDelegate.swift in Sources */,
+				6C870EA523BB75A000778966 /* AlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6C2AAF1023A562BB0001BFD0 /* Main.storyboard */ = {
+		6C09EC20244C5D32000A2D67 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6C2AAF1123A562BB0001BFD0 /* Base */,
+				6C09EC21244C5D32000A2D67 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C7A89B5243C9599001EF86E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7A89CF243CB919001EF86E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C7A89BF243CAD37001EF86E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7A89CE243CB918001EF86E /* Base */,
+				6C7A89D2243CB994001EF86E /* en */,
+				6CE7D86D243DD73B0057476B /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6C2AAF1523A562BD0001BFD0 /* LaunchScreen.storyboard */ = {
+		6CD7C387244D85E900C3DB73 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6C2AAF1623A562BD0001BFD0 /* Base */,
+				6CD7C388244D85E900C3DB73 /* en */,
+				6CD7C38A244D864E00C3DB73 /* ru */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -192,6 +408,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -230,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -252,6 +470,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,37 +501,43 @@
 		};
 		6C2AAF1C23A562BD0001BFD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D279FACB0C1DCFB890663004 /* Pods-AlarmProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FC4H949Q49;
-				INFOPLIST_FILE = AlarmProject/Info.plist;
+				INFOPLIST_FILE = AlarmProject/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AMA.AlarmProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = AMA.AlarmProject.Tutorial;
+				PRODUCT_NAME = "Alarm - Wake up";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6C2AAF1D23A562BD0001BFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BABEE25568C03F074CFC18 /* Pods-AlarmProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FC4H949Q49;
-				INFOPLIST_FILE = AlarmProject/Info.plist;
+				INFOPLIST_FILE = AlarmProject/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AMA.AlarmProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = AMA.AlarmProject.Tutorial;
+				PRODUCT_NAME = "Alarm - Wake up";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

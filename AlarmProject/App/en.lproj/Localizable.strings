@@ -1,0 +1,69 @@
+/* sound */
+"Барабан" = "Drum";
+
+/* Будильник
+   request Notification
+   sound */
+"Будильник" = "Alarm";
+
+/* alarm off */
+"Будильник выключен, переход на главный экран" = "Alarm off, go to home screen";
+
+/* alarm off automatic */
+"Будильник отключен автоматически" = "Alarm off automatically";
+
+/* time */
+"Выбрать время" = "Choose a time";
+
+/* sound */
+"Выбрать мелодию" = "Choose a melody";
+
+/* photo */
+"Для использования пробуждения с фотографией, сфотографируйте объект" = "To use awakening with a photograph, take a picture of the subject";
+
+/* alarm sound
+   request For Alarm */
+"Для срабатывания будильника, беззвучный режим должен быть отключен" = "To activate the alarm, silent mode must be turned off";
+
+/* sound */
+"Дрель" = "Drill";
+
+/* sound */
+"Звонок" = "Call";
+
+/* alarm limit */
+"Количество активных будильников не должно превышать 8" = "The number of active alarms should not exceed 8";
+
+/* sound */
+"Мотоцикл" = "Motorcycle";
+
+/* arkit */
+"Наведите чтобы выключить будильник" = "Hover to turn off the alarm";
+
+/* cancel */
+"Отменить" = "Cancel";
+
+/* sound */
+"Птицы" = "Birds";
+
+/* photo */
+"Разрешить уведомления в настройках телефона" = "Allow notifications in phone settings";
+
+/* sound */
+"Сверчок" = "Cricket";
+
+/* Save */
+"Сохранить" = "Save";
+
+/* photo */
+"Сфотографировать объект" = "Take a picture of an object";
+
+/* time */
+"Требуется разрешение на отправку уведомлений для работы будильника" = "Permission required to send notifications for the alarm";
+
+/* sound */
+"Тревога" = "Anxiety";
+
+/* delete */
+"Удалить" = "Delete";
+
